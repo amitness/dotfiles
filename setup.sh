@@ -36,6 +36,7 @@ pip install --user bpython
 pip install --user jupyter
 pip install --user pandas
 pip install --user matplotlib
+pip install --user isitup
 
 # Travis
 sudo apt-get install ruby ruby-dev
