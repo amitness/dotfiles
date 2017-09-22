@@ -22,6 +22,7 @@ sudo apt install -y python-libtorrent
 sudo apt install -y xclip
 sudo apt install -y octave
 sudo apt install -y axel
+sudo apt install -y whois
 
 # Install Build Essentials for PIP
 sudo apt install -y build-essential libssl-dev libffi-dev python-dev
