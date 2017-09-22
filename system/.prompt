@@ -1,0 +1,23 @@
+# Enable tab completion
+source ~/dotfiles/git/git-completion.bash
+__git_complete g __git_main
+__git_complete gc _git_checkout
+__git_complete gm __git_merge
+__git_complete gp _git_pull
+
+# Enable automatic switch to virtualenv
+source /home/anon/dotfiles/scripts/virtualenv-autodetect.sh
+
+# colors
+green="\[\033[0;32m\]"
+blue="\[\033[0;34m\]"
+purple="\[\033[0;35m\]"
+reset="\[\033[0m\]"
+
+# Change command prompt
+source ~/dotfiles/git/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+# '\u' adds the name of the current user to the prompt
+# '\$(__git_ps1)' adds git-related stuff
+# '\W' adds the name of the current directory
+export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
