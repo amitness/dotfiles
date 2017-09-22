@@ -1,0 +1,101 @@
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# codekit
+.sass-cache/
+.codekit-config.json
+config.codekit
+
+# VI
+.*.sw?
+
+# Gedit
+*~
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Webstorm
+.idea
+
+# Python
+*.pyc
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# sftp configuration file
+sftp-config.json
+
+# Emacs backup files
+*.~*~
+\#*\#
+
+# Emacs backups of hidden files, like ".gitignore.~3~"
+.*.~*~
+.\#*
+
+# Object files
+*.o
+
+# Core files (files created when an executable program crashes).
+*.core
+
+# Perl build process related
+blib
+pm_to_blib
+Makefile.old
+MYMETA.json
+MYMETA.yml
+MANIFEST.bak
