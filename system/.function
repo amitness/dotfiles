@@ -1,0 +1,90 @@
+# Make and change to the directory
+function md() { mkdir -p "$1" && cd "$1"; }
+
+# Extract any type of file
+
+extract() { 
+    if [ -f $1 ] ; then 
+      case $1 in 
+        *.tar.bz2)   tar xjf $1     ;; 
+        *.tar.gz)    tar xzf $1     ;; 
+        *.bz2)       bunzip2 $1     ;; 
+        *.rar)       unrar e $1     ;; 
+        *.gz)        gunzip $1      ;; 
+        *.tar)       tar xf $1      ;; 
+        *.tbz2)      tar xjf $1     ;; 
+        *.tgz)       tar xzf $1     ;; 
+        *.zip)       unzip $1       ;; 
+        *.Z)         uncompress $1  ;; 
+        *.7z)        7z x $1        ;; 
+        *)     echo "'$1' cannot be extracted via extract()" ;; 
+         esac 
+     else 
+         echo "'$1' is not a valid file" 
+     fi 
+} 
+ 
+# Show owner of a website
+  
+function owner() { 
+whois $1 | grep "Admin Name"
+}
+
+# Example of using python with arguments
+function count(){ python -c "for num in xrange($1):print num";} 
+
+# Git commit in a single line
+function q() {
+    git status
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+
+# Make backup of a file
+bak() { cp "$1"{,.bak};}
+
+# Change to directory and show files at once
+function cl () {
+cd "$@" && ls
+}
+
+# Jump to multiple directories upward
+function up( )
+{
+LIMIT=$1
+P=$PWD
+for ((i=1; i <= LIMIT; i++))
+do
+    P=$P/..
+done
+cd $P
+export MPWD=$P
+}
+
+# `s` with no arguments opens the current directory in Sublime Text, otherwise
+# opens the given location
+function s() {
+	if [ $# -eq 0 ]; then
+		subl .;
+	else
+		subl "$@";
+	fi;
+}
+
+
+function o() {
+	if [ $# -eq 0 ]; then
+		xdg-open .;
+	else
+		xdg-open "$@";
+	fi;
+}
+
+function killp() {
+    lsof -ti:$1 | xargs kill
+}
+
+function jcar() { 
+    javac $1.java && java $1 
+}
