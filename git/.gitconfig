@@ -1,0 +1,29 @@
+[credential]
+	helper = cache
+[push]
+	default = current
+[alias]
+	squash = "!f(){ git reset --soft HEAD~${1} && git commit --edit -m\"$(git log --format=%B --reverse HEAD..HEAD@{1})\"; };f"
+	co = checkout
+	ci = commit
+	br = branch
+	cob = checkout -b
+	cp = cherry-pick
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[color]
+	status = always
+	ui = auto
+[merge]
+	conflictstyle = diff3
+[gui]
+	editor = nano
+[core]
+	excludesfile = ~/dotfiles/git/.gitignore
+	editor = nano
+[include]
+	path = ~/dotfiles/git/.gitconfig.local
+[advice]
+	statusHints = false
+[user]
+	name = Amit
