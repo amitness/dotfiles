@@ -1,5 +1,6 @@
 # Enable tab completion
 source ~/dotfiles/git/git-completion.bash
+source ~/dotfiles/git/hub.bash_completion.sh
 __git_complete g __git_main
 __git_complete gc _git_checkout
 __git_complete gm __git_merge
