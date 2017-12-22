@@ -1,0 +1,127 @@
+# Shrink long commands
+alias rr="rm -rf"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias ws="cd ~/Desktop/workspace/"
+alias shut='shutdown -h now'
+# alias o='xdg-open'
+
+# List only directories
+alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+
+# Show external ip
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias mymac='/sbin/ifconfig | grep HWaddr'
+
+# Find information about ISP
+alias isp='curl ipinfo.io'
+
+# Show local ip in the network
+alias lip='ip route get 8.8.8.8 | awk '\''{print $NF; exit}'\'''
+
+# Show router ip
+# alias rip="nm-tool | grep -i gateway | xargs echo | cut -d' ' -f2"
+
+# Ping utilities
+alias pingg="ping www.google.com"
+alias ping8='ping -i 5 -n 8.8.8.8'
+alias rnetis='python ~/scripts/rnetis.py'
+alias cnetis='python ~/scripts/cnetis.py'
+
+#alias pingr="ping -i 3 -n $(rip)"
+
+# Start servers
+alias phps='php -S localhost:8000'
+alias server='python -m SimpleHTTPServer'
+alias rubyserver='ruby -run -e httpd . -p 8080'
+
+# Edit and Apply Bash
+alias bedit='xed ~/.bashrc'
+alias bapply=' . ~/.bashrc'
+
+# Make wget continue 
+alias wget='wget -c'
+
+# Jam wifi networks
+alias jam='sudo python wifijammer.py'
+
+# Git aliases
+alias git=hub
+alias gs='git status'
+alias gd='git diff'
+alias gc='git checkout -b'
+alias gcl='git clone'
+alias gp='git pull origin'
+alias co='git checkout'
+alias com='git checkout master'
+alias gpo='git push origin'
+alias gpm='git push -u origin master'
+alias gpom='git push -u origin master'
+alias gpod='git push -u origin dev'
+alias gpd='git push origin dev'
+alias gpg='git push origin gh-pages'
+alias ga='git add'
+alias gaa='git add .'
+alias gb='git branch'
+alias gcm='git commit -m'
+alias gca="git commit -a -m"
+alias archive='git archive master --format=zip --output=archive.zip'
+alias gfu='git fetch upstream'
+alias gl="git log --oneline --decorate"
+alias glp='git log --pretty=oneline'
+alias gla="git log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'"
+
+# List ignored files in git
+alias gi='git ls-files --other --ignored --exclude-standard'
+
+# Programs
+alias p='python'
+alias p3='python3'
+alias g='go run'
+alias aspark='./home/anon/spark-1.5.2/bin/spark-shell'
+alias ghelp='godoc -http=:6060'
+alias gofmt='gofmt -w'
+
+alias topdf='convert *.jpg pictures.pdf'
+alias csize='wget --spider'
+alias tabula='java -Dfile.encoding=utf-8 -Xms256M -Xmx1024M -jar /home/anon/tabula.jar'
+
+# TLP configurations
+alias etlp='gksudo xed /etc/default/tlp'
+alias tlpend='sudo tlp false'
+alias tlpbeg='sudo tlp start'
+
+# Clipboard tricks
+alias cb='xclip -selection clipboard -i ' #To write to Clipboard
+alias pbpaste='xclip -selection "clipboard" -o'  #To read from Clipboard
+
+# Print 3 month calendar
+alias cal3='echo $((`date +"%m"` + 1)) `date +"%Y"` | xargs cal -3'
+
+# Show which applications are connecting to the network
+alias listen="lsof -P -i -n" 
+
+# Quickly search through command history
+alias histg="history | grep"
+
+# make executable
+alias ax="chmod a+x"
+
+# Search process list
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+#Opens current directory in a file explorer with super user privileges
+alias sudoo='sudo nemo .'
+
+# Replace space in filename with underscores
+alias under="rename 'y/ /_/' *"
+
+# Geneate 30 letter random string
+alias randstr="strings /dev/urandom | grep -o '[[:alnum:]]' | head -n 30 | tr -d '\n'; echo"
+
+# Matrix mode
+alias fakework="cat /dev/urandom | hexdump -C | grep 'ca fe'"
+
+# Others
+alias speedtest='speedtest-cli --bytes'
+alias headers='curl -LIN'
