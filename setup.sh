@@ -24,12 +24,14 @@ sudo apt install -y octave
 sudo apt install -y axel
 sudo apt install -y whois
 sudo apt install -y speedtest-cli
+sudo apt install -y anki
 
 # Install Build Essentials for PIP
 sudo apt install -y build-essential libssl-dev libffi-dev python-dev
 
 # Install useful python libraries globally
-pip install --upgrade pip
+pip install --user --upgrade pip
+pip install --user -U setuptools
 pip install --user howdoi
 pip install --user virtualenv
 pip install --user requests
@@ -57,6 +59,11 @@ sudo apt-get -y remove banshee
 sudo apt-get -y remove xchat
 sudo apt-get -y remove tomboy
 sudo apt-get -y remove xplayer
+
+# Customization
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
 
 # Make symlinks for dotfiles
 ln -svf ~/dotfiles/runcom/.bash_profile ~
