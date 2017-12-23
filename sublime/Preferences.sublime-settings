@@ -1,0 +1,105 @@
+{
+	"added_words":
+	[
+		"Chaudhary",
+		"Amit",
+		"http",
+		"itclub",
+		"keckist",
+		"edu",
+		"np",
+		"usr",
+		"env",
+		"https",
+		"google",
+		"blog",
+		"sourcecode",
+		"txt",
+		"class=\"date",
+		"app",
+		"Wikipedia",
+		"Facebook",
+		"studenton",
+		"com@gmail",
+		"unicode",
+		"ast",
+		"urllib",
+		"Changelog",
+		"pomodoro",
+		"_test",
+		"Ubuntu",
+		"Xeon",
+		"backend",
+		"frontend",
+		"repo",
+		"github",
+		"v0.10"
+	],
+	"auto_complete": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		}
+	],
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"default_encoding": "utf-8",
+	"draw_minimap_border": true,
+	"find_selected_text": true,
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"__pycache__"
+	],
+	"font_face": "Hack",
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"GoSublime",
+		"MagicPython",
+		"Markdown",
+		"Python Improved"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"material_theme_accent_acid-lime": true,
+	"material_theme_accent_blue": true,
+	"material_theme_accent_lime": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tabs_separator": true,
+	"material_theme_tree_headings": true,
+	"mdpopups.use_sublime_highlighter": true,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": false,
+	"shift_tab_unindent": true,
+	"show_full_path": true,
+	"show_minimap": false,
+	"spell_check": false,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"update_check": false,
+	"wide_caret": true,
+	"word_wrap": true
+}
