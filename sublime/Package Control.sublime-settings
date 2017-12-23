@@ -2,11 +2,51 @@
 	"bootstrapped": true,
 	"channels":
 	[
-		"https://packagecontrol.io/channel_v3.json",
-		"https://github.com/jpvanhal/sublime-jinja2"
+		"https://packagecontrol.io/channel_v3.json"
 	],
 	"in_process_packages":
 	[
+		"AceJump",
+		"AdvancedNewFile",
+		"Alignment",
+		"AlignTab",
+		"All Autocomplete",
+		"AutoFileName",
+		"Babel",
+		"Base16 Color Schemes",
+		"Bootstrap 3 Snippets",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Comment-Snippets",
+		"Djaneiro",
+		"Emmet",
+		"ESLint-Formatter",
+		"GitStatusBar",
+		"Gutter Themes for SL",
+		"HTML Compressor",
+		"HTMLBeautify",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"Jedi - Python autocompletion",
+		"Material Color Scheme",
+		"Placeholders",
+		"Python Completions",
+		"Python Fix Imports",
+		"Python PEP8 Autoformat",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-rubocop",
+		"SublimeREPL",
+		"VCS Gutter",
+		"Zeal"
 	],
 	"installed_packages":
 	[
