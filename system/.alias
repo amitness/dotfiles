@@ -49,6 +49,7 @@ alias jam='sudo python wifijammer.py'
 alias git=hub
 alias gs='git status'
 alias gd='git diff'
+alias gdc='git diff --cached'
 alias gc='git checkout -b'
 alias gcl='git clone'
 alias gp='git pull origin'
@@ -56,8 +57,6 @@ alias co='git checkout'
 alias com='git checkout master'
 alias gpo='git push origin'
 alias gpm='git push -u origin master'
-alias gpom='git push -u origin master'
-alias gpod='git push -u origin dev'
 alias gpd='git push origin dev'
 alias gpg='git push origin gh-pages'
 alias ga='git add'
@@ -124,4 +123,4 @@ alias fakework="cat /dev/urandom | hexdump -C | grep 'ca fe'"
 
 # Others
 alias speedtest='speedtest-cli --bytes'
-alias headers='curl -LIN'
+alias hdr='curl -LIN'
