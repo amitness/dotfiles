@@ -20,7 +20,7 @@ alias isp='curl ipinfo.io'
 alias lip='ip route get 8.8.8.8 | awk '\''{print $NF; exit}'\'''
 
 # Show router ip
-# alias rip="nm-tool | grep -i gateway | xargs echo | cut -d' ' -f2"
+alias rip="ip route show | grep -i 'default via'| awk '{print $3 }'"
 
 # Ping utilities
 alias pingg="ping www.google.com"
