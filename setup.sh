@@ -41,6 +41,7 @@ pip install --user jupyter
 pip install --user pandas
 pip install --user matplotlib
 pip install --user isitup
+pip install --user rebound-cli
 
 # Travis
 sudo apt-get install ruby ruby-dev
@@ -74,6 +75,8 @@ sudo apt-get install numix-icon-theme-circle
 ln -svf ~/dotfiles/runcom/.bash_profile ~
 ln -svf ~/dotfiles/git/.gitconfig ~
 ln -svf ~/dotfiles/runcom/.inputrc ~
+
+chmod a+x ~/dotfiles/scripts/*.sh
 
 # Install sublime howdoi plugin
 if [ ! -e "$HOME/.config/sublime-text-3/Packages/sublime-howdoi-direct-paste" ]; then
