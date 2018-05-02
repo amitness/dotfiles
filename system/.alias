@@ -4,6 +4,8 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias ws="cd ~/Desktop/workspace/"
 alias shut='shutdown -h now'
+alias run='python manage.py runserver'
+alias migrate='python manage.py migrate'
 # alias o='xdg-open'
 
 # List only directories
@@ -28,16 +30,12 @@ alias ping8='ping -i 5 -n 8.8.8.8'
 alias rnetis='python ~/scripts/rnetis.py'
 alias cnetis='python ~/scripts/cnetis.py'
 
-#alias pingr="ping -i 3 -n $(rip)"
+alias pingr="ping -i 3 -n $(rip)"
 
 # Start servers
 alias phps='php -S localhost:8000'
 alias server='python -m SimpleHTTPServer'
 alias rubyserver='ruby -run -e httpd . -p 8080'
-
-# Edit and Apply Bash
-alias bedit='xed ~/.bashrc'
-alias bapply=' . ~/.bashrc'
 
 # Make wget continue 
 alias wget='wget -c'
@@ -46,6 +44,7 @@ alias wget='wget -c'
 alias jam='sudo python wifijammer.py'
 
 # Git aliases
+alias pu='git pull --rebase;git push'
 alias git=hub
 alias gs='git status'
 alias gd='git diff'
@@ -86,7 +85,6 @@ alias csize='wget --spider'
 alias tabula='java -Dfile.encoding=utf-8 -Xms256M -Xmx1024M -jar /home/anon/tabula.jar'
 
 # TLP configurations
-alias etlp='gksudo xed /etc/default/tlp'
 alias tlpend='sudo tlp false'
 alias tlpbeg='sudo tlp start'
 
@@ -124,3 +122,9 @@ alias fakework="cat /dev/urandom | hexdump -C | grep 'ca fe'"
 # Others
 alias speedtest='speedtest-cli --bytes'
 alias hdr='curl -LIN'
+
+# Easy editing
+alias etlp='gksudo code /etc/default/tlp'
+alias ealias='code ~/dotfiles/system/.alias'
+alias ebash='code ~/.bashrc'
+alias bapply=' . ~/.bashrc'
