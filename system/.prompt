@@ -1,13 +1,14 @@
 # Enable tab completion
 source ~/dotfiles/git/git-completion.bash
 source ~/dotfiles/git/hub.bash_completion.sh
+source $HOME/dotfiles/scripts/django_bash_completion.sh
 __git_complete g __git_main
 __git_complete gc _git_checkout
 __git_complete gm __git_merge
 __git_complete gp _git_pull
 
 # Enable automatic switch to virtualenv
-source /home/anon/dotfiles/scripts/virtualenv-autodetect.sh
+source $HOME/dotfiles/scripts/virtualenv-autodetect.sh
 
 # colors
 green="\[\033[0;32m\]"
