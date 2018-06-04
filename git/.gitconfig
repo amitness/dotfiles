@@ -25,7 +25,5 @@
 	path = ~/dotfiles/git/.gitconfig.local
 [advice]
 	statusHints = false
-[user]
-	name = Amit
 [help]
 	autocorrect = 1
