@@ -4,8 +4,14 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias ws="cd ~/Desktop/workspace/"
 alias shut='shutdown -h now'
-alias run='python manage.py runserver'
-alias migrate='python manage.py migrate'
+alias pir='pip install -r requirements.txt'
+alias jn='jupyter notebook'
+alias pmr="python manage.py runserver"
+alias shell="python manage.py shell"
+alias pmm="python manage.py migrate"
+alias pmmm="python manage.py makemigration"
+alias pmt="python manage.py test"
+
 # alias o='xdg-open'
 
 # List only directories
@@ -128,3 +134,6 @@ alias etlp='gksudo code /etc/default/tlp'
 alias ealias='code ~/dotfiles/system/.alias'
 alias ebash='code ~/.bashrc'
 alias bapply=' . ~/.bashrc'
+
+# Django
+alias m='python manage.py'
