@@ -22,13 +22,13 @@ alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias mymac='/sbin/ifconfig | grep HWaddr'
 
 # Find information about ISP
-alias isp='curl ipinfo.io'
+alias myisp='curl ipinfo.io'
 
 # Show local ip in the network
-alias lip='ip route get 8.8.8.8 | awk '\''{print $NF; exit}'\'''
+alias mylip='ip route get 8.8.8.8 | awk '\''{print $NF; exit}'\'''
 
 # Show router ip
-alias rip="ip route show | grep -i 'default via'| awk '{print $3 }'"
+alias myrip="ip route show | grep -i 'default via'| awk '{print $3 }'"
 
 # Ping utilities
 alias pingg="ping www.google.com"
@@ -36,7 +36,7 @@ alias ping8='ping -i 5 -n 8.8.8.8'
 alias rnetis='python ~/scripts/rnetis.py'
 alias cnetis='python ~/scripts/cnetis.py'
 
-alias pingr="ping -i 3 -n $(rip)"
+alias pingr="ping -i 3 -n $(myrip)"
 
 # Start servers
 alias phps='php -S localhost:8000'
