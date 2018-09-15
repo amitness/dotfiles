@@ -43,6 +43,10 @@ pip install --user matplotlib
 pip install --user isitup
 pip install --user rebound-cli
 
+# Useful
+sudo apt-get install redis-server
+sudo apt-get install python-mysqldb
+
 # Travis
 sudo apt-get install ruby ruby-dev
 sudo gem install travis
