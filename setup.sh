@@ -90,6 +90,12 @@ sudo sh -c 'echo "deb https://dl.google.com/linux/chrome/deb/ stable main" >> /e
 sudo apt-get update -y
 sudo apt-get install -y google-chrome-stable
 
+# Install Postman
+wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+sudo tar -xzf postman.tar.gz -C /opt
+rm postman.tar.gz
+sudo ln -s /opt/Postman/Postman /usr/bin/postman
+
 # Make symlinks for dotfiles
 ln -svf ~/dotfiles/runcom/.bash_profile ~
 ln -svf ~/dotfiles/git/.gitconfig ~
