@@ -47,6 +47,10 @@ pip install --user matplotlib
 pip install --user isitup
 pip install --user rebound-cli
 pip install --user wheel
+pip install --user tensorflow
+pip install --user keras
+pip install --user scikit-learn
+pip install --user scikit-image
 
 # Useful
 sudo apt-get install -y redis-server
