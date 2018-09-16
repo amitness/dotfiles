@@ -25,6 +25,9 @@ sudo apt install -y axel
 sudo apt install -y whois
 sudo apt install -y speedtest-cli
 sudo apt install -y anki
+sudo apt install -y vim
+sudo apt install -y typecatcher
+sudo apt install -y gimp
 
 # Install Build Essentials for PIP
 sudo apt install -y build-essential libssl-dev libffi-dev python-dev
