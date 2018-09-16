@@ -11,7 +11,7 @@ Yakuake theme: https://store.kde.org/p/1106258/
 - Skype
 - Oomox
 - Chrome
-- Pycharm
+- [Pycharm](https://www.jetbrains.com/help/pycharm/install-and-set-up-pycharm.html)
 
 ## Repeated steps
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
