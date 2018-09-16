@@ -85,9 +85,11 @@ sudo apt-get -y remove tomboy
 sudo apt-get -y remove xplayer
 
 # Customization
-sudo add-apt-repository ppa:numix/ppa
+sudo add-apt-repository ppa:numix/ppa -y
+sudo add-apt-repository ppa:nilarimogard/webupd8 -y
 sudo apt-get update -y
 sudo apt-get install -y numix-icon-theme-circle
+sudo apt install oomox -y
 
 # Install Chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
