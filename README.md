@@ -18,4 +18,4 @@ Yakuake theme: https://store.kde.org/p/1106258/
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
 - Setup SSH keys on [Bitbucket]()
 - Set keyboard shortcuts
-- 
+- Perform mintupdate
