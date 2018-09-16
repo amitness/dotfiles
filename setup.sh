@@ -78,6 +78,12 @@ sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 sudo apt-get install numix-icon-theme-circle
 
+# Install Chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+sudo sh -c 'echo "deb https://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+
 # Make symlinks for dotfiles
 ln -svf ~/dotfiles/runcom/.bash_profile ~
 ln -svf ~/dotfiles/git/.gitconfig ~
