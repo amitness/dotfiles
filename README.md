@@ -12,6 +12,7 @@ Yakuake theme: https://store.kde.org/p/1106258/
 - Oomox
 - Chrome
 - [Pycharm](https://www.jetbrains.com/help/pycharm/install-and-set-up-pycharm.html)
+- [Postman](https://app.getpostman.com/app/download/linux64)
 
 ## Repeated steps
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
