@@ -51,6 +51,7 @@ pip install --user tensorflow
 pip install --user keras
 pip install --user scikit-learn
 pip install --user scikit-image
+pip install --user imageio
 
 # Useful
 sudo apt-get install -y redis-server
