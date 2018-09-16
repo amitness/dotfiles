@@ -50,6 +50,7 @@ pip install --user rebound-cli
 # Useful
 sudo apt-get install -y redis-server
 sudo apt-get install -y python-mysqldb
+sudo apt-get install libmysqlclient-dev
 
 # Travis
 sudo apt-get install -y ruby ruby-dev
