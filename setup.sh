@@ -31,6 +31,7 @@ sudo apt install -y gimp
 
 # Install Build Essentials for PIP
 sudo apt install -y build-essential libssl-dev libffi-dev python-dev
+sudo apt-get install -y python3-venv
 
 # Install useful python libraries globally
 pip install --user --upgrade pip
