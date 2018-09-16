@@ -46,6 +46,7 @@ pip install --user pandas
 pip install --user matplotlib
 pip install --user isitup
 pip install --user rebound-cli
+pip install --user wheel
 
 # Useful
 sudo apt-get install -y redis-server
