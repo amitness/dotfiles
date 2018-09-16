@@ -47,26 +47,26 @@ pip install --user isitup
 pip install --user rebound-cli
 
 # Useful
-sudo apt-get install redis-server
-sudo apt-get install python-mysqldb
+sudo apt-get install -y redis-server
+sudo apt-get install -y python-mysqldb
 
 # Travis
-sudo apt-get install ruby ruby-dev
+sudo apt-get install -y ruby ruby-dev
 sudo gem install travis
 sudo gem install scss_lint
 
 # Node
 sudo apt install -y npm
-npm install -g eslint
-npm install -g csslint
+sudo npm install -g eslint
+sudo npm install -g csslint
 
 # Install visual studio code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install code
+sudo apt-get install -y apt-transport-https
+sudo apt-get update -y
+sudo apt-get install -y code
 
 # Remove default apps
 sudo apt-get -y remove thunderbird
@@ -78,14 +78,14 @@ sudo apt-get -y remove xplayer
 
 # Customization
 sudo add-apt-repository ppa:numix/ppa
-sudo apt-get update
-sudo apt-get install numix-icon-theme-circle
+sudo apt-get update -y
+sudo apt-get install -y numix-icon-theme-circle
 
 # Install Chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 sudo sh -c 'echo "deb https://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-sudo apt-get update
-sudo apt-get install google-chrome-stable
+sudo apt-get update -y
+sudo apt-get install -y google-chrome-stable
 
 # Make symlinks for dotfiles
 ln -svf ~/dotfiles/runcom/.bash_profile ~
