@@ -29,6 +29,7 @@ sudo apt install -y vim
 sudo apt install -y typecatcher
 sudo apt install -y gimp
 sudo apt install -y htop
+sudo apt install -y vagrant
 
 # Install Build Essentials for PIP
 sudo apt install -y build-essential libssl-dev libffi-dev python-dev
