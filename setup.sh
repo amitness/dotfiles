@@ -55,6 +55,7 @@ pip install --user scikit-learn
 pip install --user scikit-image
 pip install --user imageio
 pip install --user seaborn
+pip install --user sklearn
 
 # Useful
 sudo apt-get install -y redis-server
