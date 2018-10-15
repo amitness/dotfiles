@@ -28,7 +28,7 @@ alias myisp='curl ipinfo.io'
 alias mylip='ip route get 8.8.8.8 | awk '\''{print $NF; exit}'\'''
 
 # Show router ip
-alias myrip="ip route show | grep -i 'default via'| awk '{print $3 }'"
+alias myrip="ip route show | grep -i 'default via'| cut -f3 -d ' '"
 
 # Ping utilities
 alias pingg="ping www.google.com"
