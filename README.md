@@ -19,3 +19,4 @@ Yakuake theme: https://store.kde.org/p/1106258/
 - Setup SSH keys on [Bitbucket]()
 - Set keyboard shortcuts
 - Perform mintupdate
+- Setup [Autojump](https://www.linode.com/docs/tools-reference/tools/faster-file-navigation-with-autojump/#debian-ubuntu)
