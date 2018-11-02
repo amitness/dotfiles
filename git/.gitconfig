@@ -13,7 +13,7 @@
 	insteadOf = https://github.com/
 [color]
 	status = always
-	ui = auto
+	ui = true
 [merge]
 	conflictstyle = diff3
 [gui]
@@ -27,3 +27,4 @@
 	statusHints = false
 [help]
 	autocorrect = 1
+	autoCorrect = 20
