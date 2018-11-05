@@ -49,6 +49,8 @@ pip install --user matplotlib
 pip install --user isitup
 pip install --user rebound-cli
 pip install --user wheel
+
+# Machine Learning Libraries
 pip install --user tensorflow
 pip install --user keras
 pip install --user scikit-learn
