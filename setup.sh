@@ -49,6 +49,7 @@ pip install --user matplotlib
 pip install --user isitup
 pip install --user rebound-cli
 pip install --user wheel
+pip install --user seashells
 
 # Machine Learning Libraries
 pip install --user tensorflow
