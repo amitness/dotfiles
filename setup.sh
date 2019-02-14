@@ -75,6 +75,7 @@ sudo gem install scss_lint
 sudo apt install -y npm
 sudo npm install -g eslint
 sudo npm install -g csslint
+sudo npm install -g localtunnel
 
 # Install visual studio code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
