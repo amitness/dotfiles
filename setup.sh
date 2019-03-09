@@ -61,6 +61,10 @@ pip install --user seaborn
 pip install --user sklearn
 pip install --user pydot
 
+# Add python3 kernel to jupyter notebook
+python3 -m pip install --user ipykernel
+python3 -m ipykernel install --user
+
 # Useful
 sudo apt-get install -y redis-server
 sudo apt-get install -y python-mysqldb
