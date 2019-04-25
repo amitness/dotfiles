@@ -15,6 +15,7 @@ sudo apt install -y redshift redshift-gtk geoclue-2.0
 sudo apt install -y python-pip
 sudo apt install -y python3-dev
 sudo apt install -y python3-pip
+sudo apt install -y python3-tk
 sudo apt install -y filezilla
 sudo apt install -y zeal
 sudo apt install -y inkscape
