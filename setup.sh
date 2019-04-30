@@ -46,6 +46,7 @@ pip install --user bs4
 pip install --user bpython
 pip install --user jupyter
 pip install --user pandas
+pip install --user html5lib
 pip install --user matplotlib
 pip install --user isitup
 pip install --user rebound-cli
