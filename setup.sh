@@ -32,9 +32,13 @@ sudo apt install -y gimp
 sudo apt install -y htop
 sudo apt install -y vagrant
 
+# Install useful utilities
+sudo apt install -y autojump
+
 # Install Build Essentials for PIP
 sudo apt install -y build-essential libssl-dev libffi-dev python-dev
-sudo apt-get install -y python3-venv
+sudo apt install -y python3-venv
+sudo apt install -y libkf5globalaccel-bin
 
 # Install useful python libraries globally
 pip install --user --upgrade pip
