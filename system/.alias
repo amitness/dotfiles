@@ -79,8 +79,8 @@ alias gla="git log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'"
 alias gi='git ls-files --other --ignored --exclude-standard'
 
 # Programs
-alias p='python'
-alias p3='python3'
+alias p='/usr/bin/python3'
+alias p3='/usr/bin/python3'
 alias g='go run'
 alias aspark='./home/anon/spark-1.5.2/bin/spark-shell'
 alias ghelp='godoc -http=:6060'
@@ -137,3 +137,6 @@ alias bapply=' . ~/.bashrc'
 
 # Django
 alias m='python manage.py'
+
+# Conda aliases
+alias act='conda activate'
