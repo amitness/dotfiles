@@ -33,9 +33,13 @@ sudo apt install -y htop
 sudo apt install -y vagrant
 sudo apt install -y tmux
 
+# Install useful utilities
+sudo apt install -y autojump
+
 # Install Build Essentials for PIP
 sudo apt install -y build-essential libssl-dev libffi-dev python-dev
-sudo apt-get install -y python3-venv
+sudo apt install -y python3-venv
+sudo apt install -y libkf5globalaccel-bin
 
 # Install useful python libraries globally
 pip install --user --upgrade pip
@@ -47,6 +51,7 @@ pip install --user bs4
 pip install --user bpython
 pip install --user jupyter
 pip install --user pandas
+pip install --user html5lib
 pip install --user matplotlib
 pip install --user isitup
 pip install --user rebound-cli
