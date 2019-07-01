@@ -133,6 +133,7 @@ alias hdr='curl -LIN'
 alias etlp='gksudo code /etc/default/tlp'
 alias ealias='code ~/dotfiles/system/.alias'
 alias ebash='code ~/.bashrc'
+alias edotfiles='code ~/dotfiles/'
 alias bapply=' . ~/.bashrc'
 
 # Django
