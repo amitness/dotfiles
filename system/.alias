@@ -141,3 +141,6 @@ alias m='python manage.py'
 
 # Conda aliases
 alias act='conda activate'
+
+# Temporary notebooks to test out things
+alias jnp='cd ~/playground/ && jupyter notebook'
