@@ -4,7 +4,8 @@ Configuration for my machine
 
 Date format: %a %b %e, %I:%M
 
-Yakuake theme: https://store.kde.org/p/1106258/
+Yakuake theme: https://store.kde.org/p/1106258/  
+Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
 
 ## Softwares
 - Slack
