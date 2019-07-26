@@ -57,6 +57,7 @@ pip install --user isitup
 pip install --user rebound-cli
 pip install --user wheel
 pip install --user seashells
+pip install --user pip-name
 
 # Machine Learning Libraries
 pip install --user tensorflow
