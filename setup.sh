@@ -41,6 +41,9 @@ sudo apt install -y build-essential libssl-dev libffi-dev python-dev
 sudo apt install -y python3-venv
 sudo apt install -y libkf5globalaccel-bin
 
+# Dependencies for Shutter tool
+sudo apt install -y libgoocanvas-common libgoocanvas3 libgoo-canvas-perl
+
 # Install useful python libraries globally
 pip install --user --upgrade pip
 pip install --user -U setuptools
