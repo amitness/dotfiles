@@ -32,6 +32,7 @@ sudo apt install -y gimp
 sudo apt install -y htop
 sudo apt install -y vagrant
 sudo apt install -y tmux
+sudo apt install -y sshpass
 
 # Install useful utilities
 sudo apt install -y autojump
