@@ -134,13 +134,14 @@ alias etlp='gksudo code /etc/default/tlp'
 alias ealias='code ~/dotfiles/system/.alias'
 alias ebash='code ~/.bashrc'
 alias edotfiles='code ~/dotfiles/'
+alias essh='code ~/.ssh/config'
 alias bapply=' . ~/.bashrc'
 
 # Django
 alias m='python manage.py'
 
 # Conda aliases
-alias act='conda activate'
+alias a='conda activate'
 
 # Temporary notebooks to test out things
 alias jnp='cd ~/playground/ && jupyter notebook'

@@ -10,6 +10,9 @@ __git_complete gp _git_pull
 # Enable automatic switch to virtualenv
 source $HOME/dotfiles/scripts/virtualenv-autodetect.sh
 
+# Auto enable conda environment if present
+source $HOME/dotfiles/scripts/conda_auto_env.sh
+
 # colors
 green="\[\033[0;32m\]"
 blue="\[\033[0;34m\]"
