@@ -23,6 +23,12 @@ Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-chan
 - Setup [Autojump](https://www.linode.com/docs/tools-reference/tools/faster-file-navigation-with-autojump/#debian-ubuntu)
 - [Create Icon for Postman App](https://medium.com/@canoodle/adding-icon-launcher-for-postman-native-app-in-ubuntu-a48a3917c786)
 
+## Repeated commands
+```
+conda config --set auto_activate_base false
+```
+
+
 ## Articles
 01. [Install TLP to save battery life](http://linrunner.de/en/tlp/docs/tlp-faq.html)
 
