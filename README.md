@@ -23,6 +23,7 @@ Date format: %a %b %e, %I:%M
 - Setup Yakuake theme: https://store.kde.org/p/1106258/  
 - Setup Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
 - Set yakuake on startup applications
+- Setup solarized theme in yakuake
 
 ## Repeated commands
 ```
