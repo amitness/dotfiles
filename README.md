@@ -4,8 +4,6 @@ Configuration for my machine
 
 Date format: %a %b %e, %I:%M
 
-Yakuake theme: https://store.kde.org/p/1106258/  
-Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
 
 ## Softwares
 - Slack
@@ -22,12 +20,22 @@ Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-chan
 - Perform mintupdate
 - Setup [Autojump](https://www.linode.com/docs/tools-reference/tools/faster-file-navigation-with-autojump/#debian-ubuntu)
 - [Create Icon for Postman App](https://medium.com/@canoodle/adding-icon-launcher-for-postman-native-app-in-ubuntu-a48a3917c786)
+- Setup Yakuake theme: https://store.kde.org/p/1106258/  
+- Setup Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
+- Set yakuake on startup applications
 
 ## Repeated commands
 ```
 conda config --set auto_activate_base false
 ```
 
+Add to ~/.bashrc
+```
+if [ -f ~/.bash_profile ]; then
+    . ~/.bash_profile
+fi
+
+```
 
 ## Articles
 01. [Install TLP to save battery life](http://linrunner.de/en/tlp/docs/tlp-faq.html)
