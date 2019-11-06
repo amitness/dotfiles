@@ -24,6 +24,7 @@ Date format: %a %b %e, %I:%M
 - Setup Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
 - Set yakuake on startup applications
 - Setup solarized theme in yakuake
+- [Fix keyboard layout getting reset to Nepali](https://forums.linuxmint.com/viewtopic.php?f=208&t=169930#p873888)
 
 ## Repeated commands
 ```
