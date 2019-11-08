@@ -13,6 +13,7 @@ Date format: %a %b %e, %I:%M
 - [Pycharm](https://www.jetbrains.com/help/pycharm/install-and-set-up-pycharm.html)
 - [Postman](https://app.getpostman.com/app/download/linux64)
 - [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
+- Zoom
 
 ## Repeated steps
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
