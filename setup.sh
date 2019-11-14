@@ -33,6 +33,7 @@ sudo apt install -y htop
 sudo apt install -y vagrant
 sudo apt install -y tmux
 sudo apt install -y sshpass
+sudo apt install -y autoconf
 
 # Install useful utilities
 sudo apt install -y autojump
