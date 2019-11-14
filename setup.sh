@@ -34,6 +34,7 @@ sudo apt install -y vagrant
 sudo apt install -y tmux
 sudo apt install -y sshpass
 sudo apt install -y autoconf
+sudo apt install -y libx11-dev
 
 # Install useful utilities
 sudo apt install -y autojump
