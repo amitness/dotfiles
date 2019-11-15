@@ -28,6 +28,7 @@ Date format: %a %b %e, %I:%M
 - Setup solarized theme in yakuake
 - [Fix keyboard layout getting reset to Nepali](https://forums.linuxmint.com/viewtopic.php?f=208&t=169930#p873888)
 - Install hub: https://github.com/github/hub
+- Install hosts file: [hosts](https://github.com/StevenBlack/hosts)
 
 ## Repeated commands
 ```
