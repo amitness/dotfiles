@@ -43,6 +43,21 @@ fi
 
 ```
 
+## Custom Keyboard Shortcuts
+|Command | Shortcut|
+|---|---|
+|xkill|Ctrl + Alt + X|
+|code|Ctrl + Alt + M|
+|xset dpms force off|Ctrl + Alt + J|
+|shutdown -h now|Ctrl + Alt + K|
+|shutdown -r now|Ctrl + Alt + R|
+|google-chrome|Ctrl + Alt + C|
+|daily.py|Ctrl + Alt + D|
+|weekend.py|Ctrl + Shift + W|
+|xed|Ctrl + Alt + G|
+|office.py|Ctrl + Shift + Q|
+
+
 ## Articles
 01. [Install TLP to save battery life](http://linrunner.de/en/tlp/docs/tlp-faq.html)
 
