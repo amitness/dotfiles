@@ -14,6 +14,7 @@ Date format: %a %b %e, %I:%M
 - [Postman](https://app.getpostman.com/app/download/linux64)
 - [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
 - Zoom
+- [Pinta](https://askubuntu.com/questions/447299/how-do-i-install-pinta)
 
 ## Repeated steps
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
