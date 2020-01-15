@@ -136,6 +136,7 @@ alias ebash='code ~/.bashrc'
 alias edotfiles='code ~/dotfiles/'
 alias essh='code ~/.ssh/config'
 alias bapply=' . ~/.bashrc'
+alias ejupyter='code ~/.ipython/profile_default/startup/start.py'
 
 # Django
 alias m='python manage.py'
