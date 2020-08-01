@@ -21,6 +21,7 @@
 [core]
 	excludesfile = ~/dotfiles/git/.gitignore
 	editor = nano
+	autocrlf = input
 [include]
 	path = ~/dotfiles/git/.gitconfig.local
 [advice]
@@ -28,3 +29,7 @@
 [help]
 	autocorrect = 1
 	autoCorrect = 20
+[gpg]
+	program = gpg2
+[http]
+	postBuffer = 524288000
