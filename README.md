@@ -110,3 +110,5 @@ fi
 23. [Make filezilla open editor in gedit](http://superuser.com/questions/159846/change-filezilla-settings-in-ubuntu-linux-so-view-edit-uses-gedit) 
 
 24. [Change Sudo Timeout](http://itsfoss.com/change-sudo-password-timeout-ubuntu/)
+
+25. Fix Nvidia driver issues after upgrade: https://bugs.launchpad.net/ubuntu/+source/nvidia-graphics-drivers-435/+bug/1888617
