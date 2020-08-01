@@ -149,3 +149,4 @@ alias jnp='cd ~/playground/ && jupyter notebook'
 
 # Counting utilities
 alias ncpu='grep -c ^processor /proc/cpuinfo'
+alias gpuusage='nvidia-smi --query-gpu=index,utilization.gpu --format=csv -l'
