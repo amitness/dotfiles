@@ -9,6 +9,10 @@
 	br = branch
 	cob = checkout -b
 	cp = cherry-pick
+	s = status
+	c = commit -m
+	a = add
+	cb = checkout -b
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 [color]
