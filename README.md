@@ -30,6 +30,7 @@ Date format: %a %b %e, %I:%M
 - [Fix keyboard layout getting reset to Nepali](https://forums.linuxmint.com/viewtopic.php?f=208&t=169930#p873888)
 - Install hub: https://github.com/github/hub
 - Install hosts file: [hosts](https://github.com/StevenBlack/hosts)
+- Install fzf: https://github.com/junegunn/fzf
 
 ## Repeated commands
 ```
