@@ -154,3 +154,6 @@ alias ncpu='grep -c ^processor /proc/cpuinfo'
 
 # Python workflow
 alias venv='source venv/bin/activate'
+
+# Update conda
+alias updateconda='conda update -n base -c defaults conda'
