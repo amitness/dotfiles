@@ -16,7 +16,7 @@ Date format: %a %b %e, %I:%M
 - Zoom
 - [Pinta](https://askubuntu.com/questions/447299/how-do-i-install-pinta)
 
-## Repeated steps
+## Repetitive steps
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
 - Setup SSH keys on [Bitbucket]()
 - Set keyboard shortcuts
@@ -31,6 +31,7 @@ Date format: %a %b %e, %I:%M
 - Install hub: https://github.com/github/hub
 - Install hosts file: [hosts](https://github.com/StevenBlack/hosts)
 - Install fzf: https://github.com/junegunn/fzf
+- [Change docstring style in Pycharm](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000784410-how-to-change-pycharm-default-commenting-style-for-function-)
 
 ## Repeated commands
 ```
