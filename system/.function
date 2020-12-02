@@ -36,9 +36,12 @@ function count(){ python -c "for num in xrange($1):print num";}
 # Git commit in a single line
 function q() {
     git status
-    git add .
     git commit -a -m "$1"
     git push
+}
+
+function fixes() {
+    got commit -am "fixes $1" && git push;
 }
 
 # Make backup of a file

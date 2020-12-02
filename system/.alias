@@ -136,6 +136,7 @@ alias ebash='code ~/.bashrc'
 alias edotfiles='code ~/dotfiles/'
 alias essh='code ~/.ssh/config'
 alias bapply=' . ~/.bashrc'
+alias ehosts='sudo code /etc/hosts --user-data-dir /tmp'
 alias ejupyter='code ~/.ipython/profile_default/startup/start.py'
 
 # Django
@@ -157,3 +158,6 @@ alias venv='source venv/bin/activate'
 
 # Update conda
 alias updateconda='conda update -n base -c defaults conda'
+
+# Pip alias
+alias pipu='pip install --upgrade'
