@@ -10,7 +10,7 @@ Date format: %a %b %e, %I:%M
 - Skype
 - Oomox
 - Chrome
-- [Pycharm](https://www.jetbrains.com/help/pycharm/install-and-set-up-pycharm.html)
+- [Pycharm](https://www.jetbrains.com/toolbox-app/)
 - [Postman](https://app.getpostman.com/app/download/linux64)
 - [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
 - Zoom
