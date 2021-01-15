@@ -115,10 +115,10 @@ sudo apt-get -y remove xplayer
 # sudo apt install oomox -y
 
 # Install Chrome
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-sudo sh -c 'echo "deb https://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-sudo apt-get update -y
-sudo apt-get install -y google-chrome-stable
+#wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+#sudo sh -c 'echo "deb https://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+#sudo apt-get update -y
+#sudo apt-get install -y google-chrome-stable
 
 # Install Postman
 wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
