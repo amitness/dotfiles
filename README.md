@@ -18,6 +18,7 @@ Date format: %a %b %e, %I:%M
 
 ## Repetitive steps
 - Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
+- Custom disk partition in linux mint installation: [video](https://youtu.be/Nps2RF8fq18)
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
 - Setup SSH keys on [Bitbucket]()
 - Set keyboard shortcuts
