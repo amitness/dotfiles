@@ -6,6 +6,7 @@ sudo apt autoremove -y
 
 # Install required apps
 sudo apt install -y git
+sudo apt install -y hub
 sudo apt install -y yakuake
 sudo apt install -y vlc
 # sudo apt install -y tlp tlp-rdw
@@ -18,7 +19,6 @@ sudo apt install -y python3-dev
 sudo apt install -y python3-tk
 sudo apt install -y filezilla
 sudo apt install -y inkscape
-sudo apt install -y python-libtorrent
 sudo apt install -y xclip
 sudo apt install -y axel
 sudo apt install -y whois
