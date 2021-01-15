@@ -17,6 +17,7 @@ Date format: %a %b %e, %I:%M
 - [Pinta](https://askubuntu.com/questions/447299/how-do-i-install-pinta)
 
 ## Repetitive steps
+- Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
 - Setup SSH keys on [GitHub](https://github.com/settings/keys)
 - Setup SSH keys on [Bitbucket]()
 - Set keyboard shortcuts
