@@ -8,29 +8,25 @@ sudo apt autoremove -y
 sudo apt install -y git
 sudo apt install -y yakuake
 sudo apt install -y vlc
-sudo apt install -y tlp tlp-rdw
+# sudo apt install -y tlp tlp-rdw
 sudo apt install -y thunar
 sudo apt install -y gthumb
 sudo apt install -y redshift redshift-gtk geoclue-2.0
 sudo apt install -y python-pip
-sudo apt install -y python3-dev
 sudo apt install -y python3-pip
+sudo apt install -y python3-dev
 sudo apt install -y python3-tk
 sudo apt install -y filezilla
-sudo apt install -y zeal
 sudo apt install -y inkscape
 sudo apt install -y python-libtorrent
 sudo apt install -y xclip
-sudo apt install -y octave
 sudo apt install -y axel
 sudo apt install -y whois
 sudo apt install -y speedtest-cli
-sudo apt install -y anki
 sudo apt install -y vim
 sudo apt install -y typecatcher
 sudo apt install -y gimp
 sudo apt install -y htop
-sudo apt install -y vagrant
 sudo apt install -y tmux
 sudo apt install -y sshpass
 sudo apt install -y autoconf
@@ -80,20 +76,20 @@ python3 -m pip install --user ipykernel
 python3 -m ipykernel install --user
 
 # Useful
-sudo apt-get install -y redis-server
-sudo apt-get install -y python-mysqldb
-sudo apt-get install libmysqlclient-dev
+# sudo apt-get install -y redis-server
+# sudo apt-get install -y python-mysqldb
+# sudo apt-get install libmysqlclient-dev
 
 # Travis
-sudo apt-get install -y ruby ruby-dev
-sudo gem install travis
-sudo gem install scss_lint
+# sudo apt-get install -y ruby ruby-dev
+# sudo gem install travis
+# sudo gem install scss_lint
 
 # Node
-sudo apt install -y npm
-sudo npm install -g eslint
-sudo npm install -g csslint
-sudo npm install -g localtunnel
+# sudo apt install -y npm
+# sudo npm install -g eslint
+# sudo npm install -g csslint
+# sudo npm install -g localtunnel
 
 # Install visual studio code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -112,11 +108,11 @@ sudo apt-get -y remove tomboy
 sudo apt-get -y remove xplayer
 
 # Customization
-sudo add-apt-repository ppa:numix/ppa -y
-sudo add-apt-repository ppa:nilarimogard/webupd8 -y
-sudo apt-get update -y
-sudo apt-get install -y numix-icon-theme-circle
-sudo apt install oomox -y
+# sudo add-apt-repository ppa:numix/ppa -y
+# sudo add-apt-repository ppa:nilarimogard/webupd8 -y
+# sudo apt-get update -y
+# sudo apt-get install -y numix-icon-theme-circle
+# sudo apt install oomox -y
 
 # Install Chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
