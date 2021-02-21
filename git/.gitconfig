@@ -13,8 +13,8 @@
 	c = commit -m
 	a = add
 	cb = checkout -b
-[url "git@github.com:"]
-	insteadOf = https://github.com/
+# [url "git@github.com:"]
+# 	insteadOf = https://github.com/
 [color]
 	status = always
 	ui = true
@@ -37,3 +37,6 @@
 	program = gpg2
 [http]
 	postBuffer = 524288000
+[user]
+	name = Amit Chaudhary
+	email = meamitkc@gmail.com
