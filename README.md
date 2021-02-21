@@ -21,6 +21,11 @@ Date format: %a %b %e, %I:%M
 - [ ] Set yakuake on startup applications
 - [ ] Install hosts file: [hosts](https://github.com/StevenBlack/hosts)
 - [ ] Install fzf: https://github.com/junegunn/fzf
+```shell
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+cd ~/.fzf/
+./install
+```
 - [ ] [Change docstring style in Pycharm](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000784410-how-to-change-pycharm-default-commenting-style-for-function-)
 - [ ] Add to ~/.bashrc
 ```
