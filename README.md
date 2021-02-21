@@ -19,7 +19,7 @@ Date format: %a %b %e, %I:%M
 - [ ] Setup Yakuake theme: https://store.kde.org/p/1106258/  
 - [ ] Setup Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
 - [ ] Set yakuake on startup applications
-- [ ] Install hosts file: [hosts](https://github.com/StevenBlack/hosts)
+- [ ] Install hosts file: [hosts](https://github.com/StevenBlack/hosts) or [adsorber](https://github.com/stablestud/adsorber#portable-mode)
 - [ ] Install fzf: https://github.com/junegunn/fzf
 ```shell
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
