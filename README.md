@@ -28,7 +28,8 @@ if [ -f ~/.bash_profile ]; then
     . ~/.bash_profile
 fi
 ```
-- Clone `scripts` to home.
+- Clone `scripts` to home
+- Sync VSCode settings via git
 
 ## Repetitive steps
 - Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
