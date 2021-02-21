@@ -9,7 +9,7 @@ Date format: %a %b %e, %I:%M
 - [ ] Slack
 - [ ] Skype
 - [ ] Zoom
-- [ ] [Anki]
+- [ ] Anki
 - [ ] [Jetbrains Toolbox + Pycharm](https://www.jetbrains.com/toolbox-app/)
 - [ ] [Postman](https://app.getpostman.com/app/download/linux64)
 - [ ] [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
