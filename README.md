@@ -22,17 +22,13 @@ Date format: %a %b %e, %I:%M
 - [ ] Install hosts file: [hosts](https://github.com/StevenBlack/hosts)
 - [ ] Install fzf: https://github.com/junegunn/fzf
 - [ ] [Change docstring style in Pycharm](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000784410-how-to-change-pycharm-default-commenting-style-for-function-)
-- 
-```
-conda config --set auto_activate_base false
-```
 - [ ] Add to ~/.bashrc
 ```
 if [ -f ~/.bash_profile ]; then
     . ~/.bash_profile
 fi
-
 ```
+- Clone `scripts` to home.
 
 ## Repetitive steps
 - Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
