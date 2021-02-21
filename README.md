@@ -5,7 +5,7 @@ Configuration for my machine
 Date format: %a %b %e, %I:%M
 
 ## Manual Steps
-- Setup SSH keys on [GitHub](https://github.com/settings/keys)
+- [ ] Setup SSH keys on [GitHub](https://github.com/settings/keys)
 - [ ] Chrome
 - [ ] Slack
 - [ ] Skype
