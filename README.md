@@ -4,17 +4,15 @@ Configuration for my machine
 
 Date format: %a %b %e, %I:%M
 
-
 ## Softwares
-- Slack
-- Skype
-- Oomox
-- Chrome
-- [Pycharm](https://www.jetbrains.com/toolbox-app/)
-- [Postman](https://app.getpostman.com/app/download/linux64)
-- [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
-- Zoom
-- [Pinta](https://askubuntu.com/questions/447299/how-do-i-install-pinta)
+- [ ] Chrome
+- [ ] Slack
+- [ ] Skype
+- [ ] Zoom
+- [ ] [Anki]
+- [ ] [Jetbrains Toolbox + Pycharm](https://www.jetbrains.com/toolbox-app/)
+- [ ] [Postman](https://app.getpostman.com/app/download/linux64)
+- [ ] [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
 
 ## Repetitive steps
 - Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
