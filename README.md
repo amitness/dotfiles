@@ -4,49 +4,47 @@ Configuration for my machine
 
 Date format: %a %b %e, %I:%M
 
-
-## Softwares
-- Slack
-- Skype
-- Oomox
-- Chrome
-- [Pycharm](https://www.jetbrains.com/toolbox-app/)
-- [Postman](https://app.getpostman.com/app/download/linux64)
-- [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
-- Zoom
-- [Pinta](https://askubuntu.com/questions/447299/how-do-i-install-pinta)
-
-## Repetitive steps
-- Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
-- Custom disk partition in linux mint installation: [video](https://youtu.be/Nps2RF8fq18)
-- Setup SSH keys on [GitHub](https://github.com/settings/keys)
-- Setup SSH keys on [Bitbucket]()
-- Set keyboard shortcuts
-- Perform mintupdate
-- Setup [Autojump](https://www.linode.com/docs/tools-reference/tools/faster-file-navigation-with-autojump/#debian-ubuntu)
-- [Create Icon for Postman App](https://medium.com/@canoodle/adding-icon-launcher-for-postman-native-app-in-ubuntu-a48a3917c786)
-- Setup Yakuake theme: https://store.kde.org/p/1106258/  
-- Setup Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
-- Set yakuake on startup applications
-- Setup solarized theme in yakuake
-- [Fix keyboard layout getting reset to Nepali](https://forums.linuxmint.com/viewtopic.php?f=208&t=169930#p873888)
-- Install hub: https://github.com/github/hub
-- Install hosts file: [hosts](https://github.com/StevenBlack/hosts)
-- Install fzf: https://github.com/junegunn/fzf
-- [Change docstring style in Pycharm](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000784410-how-to-change-pycharm-default-commenting-style-for-function-)
-
-## Repeated commands
+## Manual Steps
+- [ ] Setup SSH keys on [GitHub](https://github.com/settings/keys)
+- [ ] Chrome
+- [ ] Slack
+- [ ] Skype
+- [ ] Zoom
+- [ ] Anki
+- [ ] [Jetbrains Toolbox + Pycharm](https://www.jetbrains.com/toolbox-app/)
+- [ ] [Postman](https://app.getpostman.com/app/download/linux64)
+- [ ] [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
+- [ ] Set keyboard shortcuts
+- [ ] Setup [Autojump](https://www.linode.com/docs/tools-reference/tools/faster-file-navigation-with-autojump/#debian-ubuntu)
+- [ ] Setup Yakuake theme: https://store.kde.org/p/1106258/  
+- [ ] Setup Yakuake open link in google: https://askubuntu.com/questions/62182/how-do-i-change-the-default-browser-that-konsole-opens-urls-with
+- [ ] Set yakuake on startup applications
+- [ ] Install hosts file: [hosts](https://github.com/StevenBlack/hosts) or [adsorber](https://github.com/stablestud/adsorber#portable-mode)
+- [ ] Install fzf: https://github.com/junegunn/fzf
+```shell
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+cd ~/.fzf/
+./install
 ```
-conda config --set auto_activate_base false
-```
-
-Add to ~/.bashrc
+- [ ] [Change docstring style in Pycharm](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000784410-how-to-change-pycharm-default-commenting-style-for-function-)
+- [ ] Add to ~/.bashrc
 ```
 if [ -f ~/.bash_profile ]; then
     . ~/.bash_profile
 fi
-
 ```
+- Clone `scripts` to home
+- Sync VSCode settings via git
+
+## Repetitive steps
+- Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
+- Custom disk partition in linux mint installation: [video](https://youtu.be/Nps2RF8fq18)
+- Perform mintupdate
+- [Create Icon for Postman App](https://medium.com/@canoodle/adding-icon-launcher-for-postman-native-app-in-ubuntu-a48a3917c786)
+- [Fix keyboard layout getting reset to Nepali](https://forums.linuxmint.com/viewtopic.php?f=208&t=169930#p873888)
+- Install hub: https://github.com/github/hub
+
+## Repeated commands
 
 ## Custom Keyboard Shortcuts
 |Command | Shortcut|
