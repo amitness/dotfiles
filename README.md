@@ -35,6 +35,7 @@ fi
 ```
 - Clone `scripts` to home
 - Sync VSCode settings via git
+- Set preferred applications
 
 ## Repetitive steps
 - Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
