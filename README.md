@@ -45,6 +45,9 @@ fi
 - [Fix keyboard layout getting reset to Nepali](https://forums.linuxmint.com/viewtopic.php?f=208&t=169930#p873888)
 - Install hub: https://github.com/github/hub
 
+## VSCode
+- Set `window.titleBarStyle": "custom"` to use VSCode themed title bar
+
 ## Repeated commands
 
 ## Custom Keyboard Shortcuts
