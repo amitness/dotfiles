@@ -47,6 +47,7 @@ fi
 
 ## VSCode
 - Set `window.titleBarStyle": "custom"` to use VSCode themed title bar
+- Change `Workbench > Tree: Indent` from 8 to 20.
 
 ## Repeated commands
 
