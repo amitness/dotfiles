@@ -35,6 +35,7 @@ fi
 ```
 - Clone `scripts` to home
 - Sync VSCode settings via git
+- Set preferred applications
 
 ## Repetitive steps
 - Create bootable ISO: [etcher](https://github.com/balena-io/etcher)
@@ -43,6 +44,10 @@ fi
 - [Create Icon for Postman App](https://medium.com/@canoodle/adding-icon-launcher-for-postman-native-app-in-ubuntu-a48a3917c786)
 - [Fix keyboard layout getting reset to Nepali](https://forums.linuxmint.com/viewtopic.php?f=208&t=169930#p873888)
 - Install hub: https://github.com/github/hub
+
+## VSCode
+- Set `window.titleBarStyle": "custom"` to use VSCode themed title bar
+- Change `Workbench > Tree: Indent` from 8 to 20.
 
 ## Repeated commands
 
