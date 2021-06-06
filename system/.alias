@@ -161,3 +161,6 @@ alias updateconda='conda update -n base -c defaults conda'
 
 # Pip alias
 alias pipu='pip install --upgrade'
+
+# Update code
+alias ucode='sudo apt update; sudo apt install code code-insiders'
